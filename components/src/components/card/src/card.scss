@@ -1,0 +1,24 @@
+.it-card {
+    border-radius: 4px;
+    border: 1px solid #ebeef5;
+    background-color: #fff;
+    overflow: hidden;
+    color: #303133;
+    transition: 0.3s;
+
+    .it-card__body {
+        padding: 20px;
+    }
+
+    .is-always-shadow {
+        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    }
+
+    .is-hover-shadow:hover {
+        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    }
+
+    .is-never-shadow {
+        box-shadow: none;
+    }
+}

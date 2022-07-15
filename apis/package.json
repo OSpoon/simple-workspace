@@ -1,0 +1,22 @@
+{
+  "name": "@it200/apis",
+  "private": true,
+  "version": "0.0.1",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-plus": "^2.2.9",
+    "vant": "^3.5.2",
+    "vue": "^3.2.37"
+  }
+}
